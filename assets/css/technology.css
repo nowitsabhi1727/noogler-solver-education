@@ -1,0 +1,30 @@
+body{
+    font-family:sans-serif;
+    background-image: url('/images/theme.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    min-height: 80vh;
+    margin-left:8rem;
+    color:white;
+}
+a{
+    text-decoration: none;
+    cursor:pointer;
+}
+h1{
+    color:white;
+    margin-bottom: 30px;
+    font-size:2.2rem;
+    margin-top:6rem;
+    margin-left: 50px;
+}
+button{
+    padding:1rem;
+    display:block;
+    cursor:pointer;
+    min-width:30%;
+    margin:20px;
+    font-family: sans-serif;
+    font-size:1rem;
+}

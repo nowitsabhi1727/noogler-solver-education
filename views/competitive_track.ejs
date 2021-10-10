@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/track.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Choose any person according to your comfort and if you want to pair up choose according to your current skills set</h1>
+    <table >
+        <tr>
+            <th>name</th>
+            <th>Year</th>
+            <th>Branch</th>
+            <th>CodeChef Rating</th>
+            <th>Code Forces Rating</th>
+            <th>discord id</th>
+        </tr>
+        <%for(let i of database_competitive){%> 
+            <tr>
+                <td><%=i.name%></td>
+                <td><%=i.year%></td>
+                <td><%=i.branch%></td>
+                <td><%=i.codechef%></td>
+                <td><%=i.codeforce%></td>
+                <td><%=i.discord%></td>
+            </tr>
+        <%}%>
+    </table>
+    <scirpt src="../database.js"></scirpt>
+</body>
+</html>
